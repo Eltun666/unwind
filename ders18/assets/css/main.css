@@ -1,0 +1,1571 @@
+* {
+  text-decoration: none !important;
+  list-style-type: none;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+body header .container .text1 span {
+  cursor: pointer;
+  font-size: 1.75rem !important;
+  line-height: 1.1;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body header .container .text1 span small {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+body header .container nav ul li a {
+  font-family: Nunito, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body main .section1 {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/bg_1.jpg.webp);
+}
+body main .section1 .backcolor {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+body main .section1 .backcolor p {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 550;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+body main .section1 .backcolor h1 {
+  font-size: 80px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body main .section1 .backcolor .button .button1 {
+  background-color: #c5a880 !important;
+  border: 4px solid rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+body main .section1 .backcolor .button .button1 i {
+  font-size: 8px;
+  margin-left: 10px;
+}
+body main .section1 .backcolor .button .button1:active {
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  border: 4px solid rgba(0, 0, 255, 0.5);
+}
+body main .section1 .backcolor .button .button2 {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+}
+body main .section1 .backcolor .button .button2 i {
+  font-size: 8px;
+  margin-left: 10px;
+}
+body main .section1 .backcolor .button .button2:hover {
+  color: #000000 !important;
+  background-color: #fff;
+}
+body main .section1 .backcolor .button .button2:active {
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  border: 2px solid rgba(0, 0, 255, 0.5);
+}
+body main .section1 .boxs {
+  position: absolute;
+  bottom: -75px;
+  left: 105px;
+  width: 87%;
+}
+body main .section1 .boxs .box {
+  width: 20%;
+  padding: 48px 24px;
+  background-color: #222222;
+}
+body main .section1 .boxs .box .inbox {
+  height: 60px;
+  position: relative;
+}
+body main .section1 .boxs .box .inbox p {
+  color: white;
+}
+body main .section1 .boxs .box .inbox input {
+  background-color: #222222;
+  border: none;
+  color: rgba(255, 255, 255, 0.4);
+}
+body main .section1 .boxs .box .inbox input:focus {
+  outline: none;
+}
+body main .section1 .boxs .box .inbox .icone {
+  position: absolute;
+  top: 32px;
+  left: 7px;
+  color: rgba(255, 255, 255, 0.4);
+}
+body main .section1 .boxs .box2 {
+  width: 20%;
+  padding: 48px 24px;
+  background-color: #222222;
+}
+body main .section1 .boxs .box2 .inbox {
+  height: 60px;
+  position: relative;
+}
+body main .section1 .boxs .box2 .inbox label {
+  margin-bottom: 5px;
+}
+body main .section1 .boxs .box2 .inbox .selec .icone i {
+  color: rgba(255, 255, 255, 0.4);
+  margin-right: 5px;
+}
+body main .section1 .boxs .box2 .inbox .selec select {
+  background-color: #222222;
+  color: rgba(255, 255, 255, 0.4);
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  width: 200px;
+}
+body main .section1 .boxs .box2 .inbox .selec select:focus {
+  outline: none;
+}
+body main .section1 .boxs .box3 {
+  background-color: #c5a880;
+  width: 19%;
+  padding: 48px 24px;
+}
+body main .section1 .boxs .box3 div span {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+body main .section2 .container .boxs .box2 .card {
+  border: none;
+  background-color: transparent;
+}
+body main .section2 .container .boxs .box2 .card .text {
+  background-color: #fff;
+  margin-bottom: 10px;
+  transition: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.455);
+}
+body main .section2 .container .boxs .box2 .card .text .icone {
+  margin-bottom: 8px;
+}
+body main .section2 .container .boxs .box2 .card .text .icone i {
+  font-size: 60px;
+  color: #c5a880;
+}
+body main .section2 .container .boxs .box2 .card .text .text h3 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body main .section2 .container .boxs .box2 .card .text p {
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}
+body main .section2 .container .boxs .box2 .card img {
+  border-radius: 0;
+}
+body main .section2 .container .boxs .box2:hover .card .text {
+  background-color: #000000;
+}
+body main .section2 .container .boxs .box2:hover .card .text .text {
+  color: white;
+}
+body main .section2 .container .boxs .box2:hover .card .text p {
+  color: #999999;
+}
+body main .section2 .container .boxs .box1 .card {
+  border: none;
+  background-color: transparent;
+}
+body main .section2 .container .boxs .box1 .card .text {
+  background-color: white;
+  transition: 0.4s;
+}
+body main .section2 .container .boxs .box1 .card .text .icone {
+  margin-bottom: 10px;
+}
+body main .section2 .container .boxs .box1 .card .text .icone i {
+  font-size: 60px;
+  color: #c5a880;
+}
+body main .section2 .container .boxs .box1 .card .text .text h3 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body main .section2 .container .boxs .box1 .card .text p {
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}
+body main .section2 .container .boxs .box1:hover .card .text {
+  background-color: #000000;
+}
+body main .section2 .container .boxs .box1:hover .card .text .text {
+  color: white;
+}
+body main .section2 .container .boxs .box1:hover .card .text p {
+  color: #999999;
+}
+body main .section2 .container .textbox span {
+  font-size: 13px;
+  color: #c5a880;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+body main .section2 .container .textbox h2 {
+  font-size: 64px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 24px;
+}
+body main .section2 .container .textbox p {
+  color: #999999;
+}
+body main .section2 .container .textbox button {
+  border: 4px solid rgba(0, 0, 255, 0);
+  background-color: #c5a880;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+body main .section2 .container .textbox button:active {
+  border: 4px solid rgba(0, 0, 255, 0.3);
+}
+body main .section3 span {
+  font-size: 13px;
+  color: #c5a880;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+body main .section3 .text h2 {
+  font-size: 64px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body main .section3 .boxs {
+  width: 81%;
+}
+body main .section3 .boxs .box {
+  width: 220px !important;
+  height: 184px;
+  background-color: #fff;
+  border-radius: 50% 50% 50% 0;
+  transition: 0.5s;
+}
+body main .section3 .boxs .box i {
+  font-size: 70px;
+  color: #c5a880;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+body main .section3 .boxs .box p {
+  font-size: 20px;
+  transition: 0.5s;
+}
+body main .section3 .boxs .box:hover {
+  background-color: #c5a880;
+}
+body main .section3 .boxs .box:hover i {
+  color: #fff;
+}
+body main .section3 .boxs .box:hover p {
+  color: #fff;
+}
+body main .section4 {
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/bg_1.jpg.webp);
+}
+body main .section4 .backcolor {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+body main .section4 .backcolor .box {
+  margin: 0 auto;
+}
+body main .section4 .backcolor .box .text {
+  width: 70%;
+}
+body main .section4 .backcolor .box .text span {
+  color: #c5a880;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body main .section4 .backcolor .box .text h2 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: white;
+  font-size: 40px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body main .section4 .backcolor .box .button button {
+  background-color: #c5a880;
+  color: #fff;
+  border: 4px solid rgba(0, 0, 255, 0);
+}
+body main .section4 .backcolor .box .button button:active {
+  border: 4px solid rgba(0, 0, 255, 0.536);
+}
+body main .section5 .text {
+  margin: 0 auto;
+}
+body main .section5 .text span {
+  color: #c5a880;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body main .section5 .text h2 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 64px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body main .section5 .boxs {
+  width: 90%;
+  margin: 0 auto;
+}
+body main .section5 .boxs .box {
+  width: 440px;
+}
+body main .section5 .boxs .box .text1 {
+  height: 280px;
+  background-color: white;
+  transition: 0.7s;
+}
+body main .section5 .boxs .box .text1 span {
+  font-size: 30px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  transition: 0.7s;
+}
+body main .section5 .boxs .box .text1 p {
+  color: #999999;
+}
+body main .section5 .boxs .box .text1 .intext span {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #c5a880;
+  cursor: auto;
+}
+body main .section5 .boxs .box .text1 .intext button {
+  font-weight: 500;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #222222;
+  border: 0.5px solid rgba(34, 34, 34, 0.1529411765);
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.7s;
+}
+body main .section5 .boxs .box .img {
+  width: 100%;
+  height: 280px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/room-1.jpg.webp);
+}
+body main .section5 .boxs .box .img .backcolor {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.7s;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body main .section5 .boxs .box:hover .text1 {
+  background-color: black;
+}
+body main .section5 .boxs .box:hover .text1 span {
+  color: white;
+}
+body main .section5 .boxs .box:hover .text1 .intext span {
+  color: #c5a880;
+}
+body main .section5 .boxs .box:hover .text1 .intext button {
+  border: 0.5px solid rgba(255, 255, 255, 0.197);
+  color: white;
+}
+body main .section5 .boxs .box:hover .img .backcolor {
+  opacity: 1;
+}
+body main .section5 .boxs .box2 {
+  width: 440px;
+}
+body main .section5 .boxs .box2 .text1 {
+  height: 280px;
+  background-color: white;
+  transition: 0.7s;
+}
+body main .section5 .boxs .box2 .text1 span {
+  font-size: 30px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  transition: 0.7s;
+}
+body main .section5 .boxs .box2 .text1 p {
+  color: #999999;
+}
+body main .section5 .boxs .box2 .text1 .intext span {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #c5a880;
+  cursor: auto;
+}
+body main .section5 .boxs .box2 .text1 .intext button {
+  font-weight: 500;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #222222;
+  border: 0.5px solid rgba(34, 34, 34, 0.1529411765);
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.7s;
+}
+body main .section5 .boxs .box2 .img {
+  width: 100%;
+  height: 280px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/room-2.jpg.webp);
+}
+body main .section5 .boxs .box2 .img .backcolor {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.7s;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body main .section5 .boxs .box2:hover .text1 {
+  background-color: black;
+}
+body main .section5 .boxs .box2:hover .text1 span {
+  color: white;
+}
+body main .section5 .boxs .box2:hover .text1 .intext span {
+  color: #c5a880;
+}
+body main .section5 .boxs .box2:hover .text1 .intext button {
+  border: 0.5px solid rgba(255, 255, 255, 0.197);
+  color: white;
+}
+body main .section5 .boxs .box2:hover .img .backcolor {
+  opacity: 1;
+}
+body main .section5 .boxs .box3 {
+  width: 440px;
+}
+body main .section5 .boxs .box3 .text1 {
+  height: 280px;
+  background-color: white;
+  transition: 0.7s;
+}
+body main .section5 .boxs .box3 .text1 span {
+  font-size: 30px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  transition: 0.7s;
+}
+body main .section5 .boxs .box3 .text1 p {
+  color: #999999;
+}
+body main .section5 .boxs .box3 .text1 .intext span {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #c5a880;
+  cursor: auto;
+}
+body main .section5 .boxs .box3 .text1 .intext button {
+  font-weight: 500;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #222222;
+  border: 0.5px solid rgba(34, 34, 34, 0.1529411765);
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.7s;
+}
+body main .section5 .boxs .box3 .img {
+  width: 100%;
+  height: 280px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/room-3.jpg.webp);
+}
+body main .section5 .boxs .box3 .img .backcolor {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.7s;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body main .section5 .boxs .box3:hover .text1 {
+  background-color: black;
+}
+body main .section5 .boxs .box3:hover .text1 span {
+  color: white;
+}
+body main .section5 .boxs .box3:hover .text1 .intext span {
+  color: #c5a880;
+}
+body main .section5 .boxs .box3:hover .text1 .intext button {
+  border: 0.5px solid rgba(255, 255, 255, 0.197);
+  color: white;
+}
+body main .section5 .boxs .box3:hover .img .backcolor {
+  opacity: 1;
+}
+body main .section6 {
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/bg_2.jpg.webp);
+}
+body main .section6 .backcolor {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4196078431);
+}
+body main .section6 .backcolor span {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+body main .section6 .backcolor h2 {
+  font-size: 70px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+body main .section6 .backcolor .icone {
+  width: 80px;
+  height: 80px;
+  background-color: #c5a880;
+  border-radius: 50%;
+}
+body main .section6 .backcolor .icone i {
+  font-size: 40px;
+}
+body main .section7 .text {
+  padding-bottom: 24px;
+}
+body main .section7 .text span {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #c5a880;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body main .section7 .text h2 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 16px;
+}
+body main .section7 .boxs {
+  position: relative;
+}
+body main .section7 .boxs .img {
+  width: 600px;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/resto-bar.jpg.webp);
+}
+body main .section7 .boxs .img .bgcolor {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+body main .section7 .boxs .rightbox {
+  background-color: #c5a880;
+  width: 100px;
+  height: 120px;
+  border-radius: 5px;
+  position: absolute;
+  top: 240px;
+  left: 545px;
+}
+body main .section7 .boxs .rightbox i {
+  font-size: 60px;
+}
+body main .section7 .boxs .boxs .box .minibox {
+  background-color: white;
+}
+body main .section7 .boxs .boxs .box .minibox .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-1.jpg.webp);
+}
+body main .section7 .boxs .boxs .box .minibox h3 {
+  width: 170px;
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+}
+body main .section7 .boxs .boxs .box .minibox h3 span {
+  padding-right: 20px;
+  color: #000000;
+}
+body main .section7 .boxs .boxs .box .minibox span {
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+  color: #c5a880;
+}
+body main .section7 .boxs .boxs .box .minibox:hover {
+  background-color: #000000;
+}
+body main .section7 .boxs .boxs .box .minibox:hover h3 span {
+  color: white;
+}
+body main .section7 .boxs .boxs .box .minibox2 {
+  background-color: white;
+}
+body main .section7 .boxs .boxs .box .minibox2 .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-2.jpg.webp);
+}
+body main .section7 .boxs .boxs .box .minibox2 h3 {
+  width: 170px;
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+}
+body main .section7 .boxs .boxs .box .minibox2 h3 span {
+  padding-right: 20px;
+  color: #000000;
+}
+body main .section7 .boxs .boxs .box .minibox2 span {
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+  color: #c5a880;
+}
+body main .section7 .boxs .boxs .box .minibox2:hover {
+  background-color: #000000;
+}
+body main .section7 .boxs .boxs .box .minibox2:hover h3 span {
+  color: white;
+}
+body main .section7 .boxs .boxs .box .minibox3 {
+  background-color: white;
+}
+body main .section7 .boxs .boxs .box .minibox3 .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-3.jpg.webp);
+}
+body main .section7 .boxs .boxs .box .minibox3 h3 {
+  width: 170px;
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+}
+body main .section7 .boxs .boxs .box .minibox3 h3 span {
+  padding-right: 20px;
+  color: #000000;
+}
+body main .section7 .boxs .boxs .box .minibox3 span {
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+  color: #c5a880;
+}
+body main .section7 .boxs .boxs .box .minibox3:hover {
+  background-color: #000000;
+}
+body main .section7 .boxs .boxs .box .minibox3:hover h3 span {
+  color: white;
+}
+body main .section7 .boxs .boxs .box .minibox4 {
+  background-color: white;
+}
+body main .section7 .boxs .boxs .box .minibox4 .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-4.jpg.webp);
+}
+body main .section7 .boxs .boxs .box .minibox4 h3 {
+  width: 170px;
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+}
+body main .section7 .boxs .boxs .box .minibox4 h3 span {
+  padding-right: 20px;
+  color: #000000;
+}
+body main .section7 .boxs .boxs .box .minibox4 span {
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+  color: #c5a880;
+}
+body main .section7 .boxs .boxs .box .minibox4:hover {
+  background-color: #000000;
+}
+body main .section7 .boxs .boxs .box .minibox4:hover h3 span {
+  color: white;
+}
+body main .section7 .boxs .boxs .box2 .minibox {
+  background-color: white;
+}
+body main .section7 .boxs .boxs .box2 .minibox .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-5.jpg.webp);
+}
+body main .section7 .boxs .boxs .box2 .minibox h3 {
+  width: 170px;
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+}
+body main .section7 .boxs .boxs .box2 .minibox h3 span {
+  padding-right: 20px;
+  color: #000000;
+}
+body main .section7 .boxs .boxs .box2 .minibox span {
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+  color: #c5a880;
+}
+body main .section7 .boxs .boxs .box2 .minibox:hover {
+  background-color: #000000;
+}
+body main .section7 .boxs .boxs .box2 .minibox:hover h3 span {
+  color: white;
+}
+body main .section7 .boxs .boxs .box2 .minibox2 {
+  background-color: white;
+}
+body main .section7 .boxs .boxs .box2 .minibox2 .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-6.jpg.webp);
+}
+body main .section7 .boxs .boxs .box2 .minibox2 h3 {
+  width: 170px;
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+}
+body main .section7 .boxs .boxs .box2 .minibox2 h3 span {
+  padding-right: 20px;
+  color: #000000;
+}
+body main .section7 .boxs .boxs .box2 .minibox2 span {
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+  color: #c5a880;
+}
+body main .section7 .boxs .boxs .box2 .minibox2:hover {
+  background-color: #000000;
+}
+body main .section7 .boxs .boxs .box2 .minibox2:hover h3 span {
+  color: white;
+}
+body main .section7 .boxs .boxs .box2 .minibox3 {
+  background-color: white;
+}
+body main .section7 .boxs .boxs .box2 .minibox3 .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-7.jpg.webp);
+}
+body main .section7 .boxs .boxs .box2 .minibox3 h3 {
+  width: 170px;
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+}
+body main .section7 .boxs .boxs .box2 .minibox3 h3 span {
+  padding-right: 20px;
+  color: #000000;
+}
+body main .section7 .boxs .boxs .box2 .minibox3 span {
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+  color: #c5a880;
+}
+body main .section7 .boxs .boxs .box2 .minibox3:hover {
+  background-color: #000000;
+}
+body main .section7 .boxs .boxs .box2 .minibox3:hover h3 span {
+  color: white;
+}
+body main .section7 .boxs .boxs .box2 .minibox4 {
+  background-color: white;
+}
+body main .section7 .boxs .boxs .box2 .minibox4 .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-8.jpg.webp);
+}
+body main .section7 .boxs .boxs .box2 .minibox4 h3 {
+  width: 170px;
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+}
+body main .section7 .boxs .boxs .box2 .minibox4 h3 span {
+  padding-right: 20px;
+  color: #000000;
+}
+body main .section7 .boxs .boxs .box2 .minibox4 span {
+  font-size: 20px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-weight: 600;
+  color: #c5a880;
+}
+body main .section7 .boxs .boxs .box2 .minibox4:hover {
+  background-color: #000000;
+}
+body main .section7 .boxs .boxs .box2 .minibox4:hover h3 span {
+  color: white;
+}
+body main .section8 .text {
+  padding-bottom: 24px;
+}
+body main .section8 .text span {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #c5a880;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body main .section8 .text h2 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 16px;
+}
+body main .section8 .boxs {
+  width: 85%;
+  margin: 0 auto;
+}
+body main .section8 .boxs .box {
+  position: relative;
+  width: 410px;
+  background-color: white;
+  padding: 35px 30px 30px;
+}
+body main .section8 .boxs .box .img .inimg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/person_2.jpg.webp);
+}
+body main .section8 .boxs .box .img .text span {
+  font-weight: 500;
+}
+body main .section8 .boxs .box .icone {
+  position: absolute;
+  top: 86px;
+  left: 81px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #c5a880;
+}
+body main .section8 .boxs .box .icone i {
+  color: white;
+}
+body main .section8 .boxs .box1 {
+  position: relative;
+  width: 410px;
+  background-color: white;
+  padding: 35px 30px 30px;
+}
+body main .section8 .boxs .box1 .img .inimg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/person_3.jpg.webp);
+}
+body main .section8 .boxs .box1 .img .text span {
+  font-weight: 500;
+}
+body main .section8 .boxs .box1 .icone {
+  position: absolute;
+  top: 86px;
+  left: 81px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #c5a880;
+}
+body main .section8 .boxs .box1 .icone i {
+  color: white;
+}
+body main .section8 .boxs .box2 {
+  position: relative;
+  width: 410px;
+  background-color: white;
+  padding: 35px 30px 30px;
+}
+body main .section8 .boxs .box2 .img .inimg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/person_1.jpg.webp);
+}
+body main .section8 .boxs .box2 .img .text span {
+  font-weight: 500;
+}
+body main .section8 .boxs .box2 .icone {
+  position: absolute;
+  top: 86px;
+  left: 81px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #c5a880;
+}
+body main .section8 .boxs .box2 .icone i {
+  color: white;
+}
+body main .section9 {
+  background-color: #222222;
+}
+body main .section9 .boxs {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}
+body main .section9 .boxs .box {
+  width: 25%;
+  height: 254px;
+}
+body main .section9 .boxs .box .stck {
+  width: 1px;
+  height: 90px;
+  background-color: rgba(153, 153, 153, 0.2745098039);
+}
+body main .section9 .boxs .box h2 {
+  color: #c5a880;
+  font-size: 40px;
+  line-height: 0.6;
+  margin-bottom: 1.5rem;
+}
+body main .section9 .boxs .box p {
+  color: #999999;
+}
+body main .section10 .text {
+  padding-bottom: 24px;
+}
+body main .section10 .text span {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #c5a880;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body main .section10 .text h2 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 16px;
+}
+body main .section10 .boxs {
+  width: 90%;
+  margin: 0 auto;
+}
+body main .section10 .boxs .box {
+  width: 330px;
+  height: 570px;
+  background-color: white;
+}
+body main .section10 .boxs .box .img {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/image_1.jpg.webp);
+  background-position: center;
+  background-size: cover;
+}
+body main .section10 .boxs .box .text p span {
+  color: #999999;
+  margin-right: 10px;
+}
+body main .section10 .boxs .box .text p a {
+  color: #c5a880;
+}
+body main .section10 .boxs .box .text h4 {
+  transition: 0.5s;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.6;
+}
+body main .section10 .boxs .box .text h4:hover {
+  color: #c5a880;
+}
+body main .section10 .boxs .box .text span {
+  color: #999999;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 1.7;
+}
+body main .section10 .boxs .box1 {
+  width: 330px;
+  height: 570px;
+  background-color: white;
+}
+body main .section10 .boxs .box1 .img {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/image_2.jpg.webp);
+  background-position: center;
+  background-size: cover;
+}
+body main .section10 .boxs .box1 .text p span {
+  color: #999999;
+  margin-right: 10px;
+}
+body main .section10 .boxs .box1 .text p a {
+  color: #c5a880;
+}
+body main .section10 .boxs .box1 .text h4 {
+  transition: 0.5s;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.6;
+}
+body main .section10 .boxs .box1 .text h4:hover {
+  color: #c5a880;
+}
+body main .section10 .boxs .box1 .text span {
+  color: #999999;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 1.7;
+}
+body main .section10 .boxs .box2 {
+  width: 330px;
+  height: 570px;
+  background-color: white;
+}
+body main .section10 .boxs .box2 .img {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/image_3.jpg.webp);
+  background-position: center;
+  background-size: cover;
+}
+body main .section10 .boxs .box2 .text p span {
+  color: #999999;
+  margin-right: 10px;
+}
+body main .section10 .boxs .box2 .text p a {
+  color: #c5a880;
+}
+body main .section10 .boxs .box2 .text h4 {
+  transition: 0.5s;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.6;
+}
+body main .section10 .boxs .box2 .text h4:hover {
+  color: #c5a880;
+}
+body main .section10 .boxs .box2 .text span {
+  color: #999999;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 1.7;
+}
+body main .section10 .boxs .box3 {
+  width: 330px;
+  height: 570px;
+  background-color: white;
+}
+body main .section10 .boxs .box3 .img {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/image_4.jpg.webp);
+  background-position: center;
+  background-size: cover;
+}
+body main .section10 .boxs .box3 .text p span {
+  color: #999999;
+  margin-right: 10px;
+}
+body main .section10 .boxs .box3 .text p a {
+  color: #c5a880;
+}
+body main .section10 .boxs .box3 .text h4 {
+  transition: 0.5s;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.6;
+}
+body main .section10 .boxs .box3 .text h4:hover {
+  color: #c5a880;
+}
+body main .section10 .boxs .box3 .text span {
+  color: #999999;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 1.7;
+}
+body main .section11 .boxs {
+  width: 98%;
+  margin: 0 auto;
+}
+body main .section11 .boxs .img {
+  width: 285px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-1.jpg.webp);
+}
+body main .section11 .boxs .img .bgcolor {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4549019608);
+  display: none;
+  cursor: pointer;
+  transition: 0.6s;
+}
+body main .section11 .boxs .img .bgcolor .icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #c5a880;
+}
+body main .section11 .boxs .img .bgcolor .icone i {
+  color: white;
+}
+body main .section11 .boxs .img:hover .bgcolor {
+  display: flex;
+}
+body main .section11 .boxs .img1 {
+  width: 285px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-2.jpg.webp);
+}
+body main .section11 .boxs .img1 .bgcolor {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4549019608);
+  display: none;
+  cursor: pointer;
+  transition: 0.6s;
+}
+body main .section11 .boxs .img1 .bgcolor .icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #c5a880;
+}
+body main .section11 .boxs .img1 .bgcolor .icone i {
+  color: white;
+}
+body main .section11 .boxs .img1:hover .bgcolor {
+  display: flex;
+}
+body main .section11 .boxs .img2 {
+  width: 285px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-3.jpg.webp);
+}
+body main .section11 .boxs .img2 .bgcolor {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4549019608);
+  display: none;
+  cursor: pointer;
+  transition: 0.6s;
+}
+body main .section11 .boxs .img2 .bgcolor .icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #c5a880;
+}
+body main .section11 .boxs .img2 .bgcolor .icone i {
+  color: white;
+}
+body main .section11 .boxs .img2:hover .bgcolor {
+  display: flex;
+}
+body main .section11 .boxs .img3 {
+  width: 285px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-4.jpg.webp);
+}
+body main .section11 .boxs .img3 .bgcolor {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4549019608);
+  display: none;
+  cursor: pointer;
+  transition: 0.6s;
+}
+body main .section11 .boxs .img3 .bgcolor .icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #c5a880;
+}
+body main .section11 .boxs .img3 .bgcolor .icone i {
+  color: white;
+}
+body main .section11 .boxs .img3:hover .bgcolor {
+  display: flex;
+}
+body main .section11 .boxs .img4 {
+  width: 285px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-5.jpg.webp);
+}
+body main .section11 .boxs .img4 .bgcolor {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4549019608);
+  display: none;
+  cursor: pointer;
+  transition: 0.6s;
+}
+body main .section11 .boxs .img4 .bgcolor .icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #c5a880;
+}
+body main .section11 .boxs .img4 .bgcolor .icone i {
+  color: white;
+}
+body main .section11 .boxs .img4:hover .bgcolor {
+  display: flex;
+}
+
+footer {
+  background-color: #1a1a1a;
+}
+footer .boxss {
+  width: 95%;
+  margin: 0 auto;
+  height: 500px;
+}
+footer .boxss .box1 {
+  height: 350px;
+}
+footer .boxss .box1 .logo span {
+  cursor: pointer;
+  font-size: 1.75rem !important;
+  line-height: 1.1;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 30px !important;
+}
+footer .boxss .box1 .logo span small {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+footer .boxss .box1 p {
+  color: rgba(255, 255, 255, 0.7019607843);
+  width: 306px;
+}
+footer .boxss .box1 .icones .icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #222222;
+  cursor: pointer;
+}
+footer .boxss .box1 .icones .icone i {
+  color: #c5a880;
+}
+footer .boxss .box2 {
+  height: 350px;
+}
+footer .boxss .box2 span {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+footer .boxss .box2 .boxs .box ul li a {
+  color: rgba(255, 255, 255, 0.7019607843);
+}
+footer .boxss .box2 .boxs .box ul li:hover a {
+  color: #c5a880;
+}
+footer .boxss .box3 {
+  height: 350px;
+}
+footer .boxss .box3 span {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+footer .boxss .box3 .box ul li a {
+  color: rgba(255, 255, 255, 0.7019607843);
+}
+footer .boxss .box3 .box ul li a:hover {
+  color: #c5a880;
+}
+footer .boxss .box4 {
+  height: 350px;
+}
+footer .boxss .box4 span {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+footer .boxss .box4 .boxs {
+  width: 310px;
+}
+footer .boxss .box4 .boxs .box .icone {
+  width: 40px;
+  height: 50px;
+}
+footer .boxss .box4 .boxs .box .icone i {
+  color: #c5a880;
+}
+footer .boxss .box4 .boxs .box .text {
+  color: rgba(255, 255, 255, 0.7019607843);
+}
+footer .boxss .box4 .boxs .box .text2 {
+  color: rgba(255, 255, 255, 0.7019607843);
+}
+footer .boxss .box4 .boxs .box .text2 p {
+  cursor: pointer;
+}
+footer .son {
+  background-color: #151515;
+  height: 120px;
+}
+footer .son p {
+  color: rgba(255, 255, 255, 0.7019607843);
+  font-size: 13px;
+}
+footer .son p i {
+  color: rgba(255, 255, 255, 0.7019607843);
+}
+footer .son p span {
+  color: #c5a880;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+@keyframes playanimation {}
+@media (max-width: 992px) {
+  header .container nav {
+    display: none !important;
+  }
+  main .section1 .boxs {
+    flex-wrap: wrap;
+    position: static !important;
+    padding: 30px;
+    margin: 0 auto;
+  }
+  main .section2 .container {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+  }
+  main .section3 .boxs {
+    flex-wrap: wrap;
+  }
+  main .section5 .boxs {
+    flex-direction: column;
+    gap: 30px;
+  }
+  main .section5 .boxs .box {
+    width: 100% !important;
+  }
+  main .section5 .boxs .box2 {
+    width: 100% !important;
+  }
+  main .section5 .boxs .box3 {
+    width: 100% !important;
+  }
+  main .section7 .boxs {
+    flex-wrap: wrap;
+  }
+  main .section7 .boxs .img {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  main .section7 .boxs .rightbox {
+    left: 45% !important;
+  }
+  main .section7 .boxs .boxs {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  main .section8 .boxs {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  main .section8 .boxs .box {
+    margin-bottom: 10px;
+  }
+  main .section9 .boxs {
+    width: 80% !important;
+    margin-top: 120px !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  main .section9 .boxs .box {
+    width: 367px !important;
+  }
+  main .section10 .boxs {
+    flex-wrap: wrap;
+    width: 70% !important;
+  }
+  main .section10 .boxs .box {
+    margin-bottom: 10px;
+  }
+  main .section10 .boxs .box1 {
+    margin-bottom: 10px;
+  }
+  main .section11 .boxs {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  footer .boxss {
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .section2 .container .boxs .box2 .cord {
+    width: 50%;
+  }
+  .section2 .boxs {
+    flex-wrap: wrap;
+  }
+}

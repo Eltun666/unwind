@@ -1,0 +1,1909 @@
+*{
+    text-decoration: none !important;
+    list-style-type: none;
+}
+body{
+    background-color: #f8f8f8;
+    header{
+        .container{
+            .text1{
+               span{
+                cursor: pointer;
+                font-size: 1.75rem !important;
+                line-height: 1.1; 
+                font-weight: 700;
+                font-family: "Nunito", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                small{
+                    font-weight: 700;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                }
+               }
+            }
+            nav{
+                ul{
+                    li{
+                        a{
+                            font-family: Nunito, Arial, sans-serif;
+                            font-size: 13px;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    main{
+        .section1{
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url(https://preview.colorlib.com/theme/unwind/images/bg_1.jpg.webp);
+            .backcolor{
+                background-color: rgba(0, 0, 0, 0.450);
+                p{
+                    color: white;
+                    font-family: "Nunito", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-weight: 550;
+                    letter-spacing: 1px;
+                    font-size: 13px;
+                }
+                h1{
+                    font-size: 80px;
+                    font-family: "Old Standard TT", serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+                .button{
+                    .button1{
+                        background-color: #c5a880 !important;
+                        border: 4px solid #ffffff00;
+                        display: flex;
+                        align-items: center;
+                        transition: 0.3s;
+                        i{
+                            font-size: 8px;
+                            margin-left: 10px;
+                        }
+                        &:active{
+                            box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+                            border: 4px solid rgba(0, 0, 255, 0.5);
+                        }
+                    }
+    
+                    .button2{
+                        background-color: #ffffff00;
+                        border: 1px solid #fff;
+                        display: flex;
+                        align-items: center;
+                        i{
+                            font-size: 8px;
+                            margin-left: 10px;
+                        }
+                        &:hover{
+                            color: #000000 !important;
+                            background-color: #fff;
+                        }
+                        &:active{
+                            box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+                            border: 2px solid rgba(0, 0, 255, 0.5);
+                        }
+                    }
+                }
+            }
+    
+            .boxs{
+                position: absolute;
+                bottom: -75px;
+                left: 105px;
+                width: 87%;
+                .box{
+                    width: 20%;
+                    padding: 48px 24px;
+                    background-color: #222222;
+                    .inbox{
+                        height: 60px;
+                        position: relative;
+                        p{
+                            color: white;
+                        }
+                        input{
+                            background-color: #222222;
+                            border: none;
+                            color: rgba(255, 255, 255, 0.4);
+                            &:focus{
+                                outline: none;
+    
+                            }
+                        }
+                        .icone{
+                            position: absolute;
+                            top: 32px;
+                            left: 7px;
+                            color: rgba(255, 255, 255, 0.4)
+                        }
+                        
+                    }
+                }
+    
+                .box2{
+                    width: 20%;
+                    padding: 48px 24px;
+                    background-color: #222222;
+                    .inbox{
+                        height: 60px;
+                        position: relative;
+                        label{
+                            margin-bottom: 5px;
+                        }
+                        .selec{
+                            .icone{
+                                i{
+                                    color:  rgba(255, 255, 255, 0.4);
+                                    margin-right: 5px;
+                                }
+                            }
+                            select{
+                                background-color: #222222;
+                                color:  rgba(255, 255, 255, 0.4);
+                                appearance: none;
+                                border: none;
+                                &:focus{
+                                    outline: none;
+                                }
+                              
+                                    border-radius: 0;
+                                    width: 200px;
+    
+                            }
+                        }
+    
+    
+    
+                        
+                    }
+                }
+                .box3{
+                    background-color: #c5a880;
+                    width: 19%;
+                    padding: 48px 24px;
+                    div{
+                        span{
+                            font-weight: 600;
+                            letter-spacing: 1px;
+                        }
+                    }
+    
+    
+                }
+            }
+        }
+    
+        .section2{
+            .container{
+                .boxs{
+                    .box2{
+                        .card{
+                            border: none;
+                            background-color: transparent;
+                            .text{
+                                background-color: #fff;
+                                margin-bottom: 10px;
+                                transition: 0.4s;
+                                box-shadow: rgba(0, 0, 0, 0.455);
+                                .icone{
+                                    margin-bottom: 8px;
+                                    i{
+                                        font-size: 60px;
+                                        color: #c5a880;
+                                    }
+                                }
+                                .text{
+                                    h3{
+                                        font-family: "Old Standard TT", serif;
+                                        font-weight: 400;
+                                        font-style: normal;
+                                  
+                                    }
+                                }
+                                p{
+                                    color: rgba(0, 0, 0, 0.4);
+                                    transition: 0.4s;
+                                }
+                            }
+                            img{
+                                border-radius: 0;
+                            }
+                        }
+                        &:hover{
+                            .card{
+                                .text{
+                                    background-color: #000000;
+                                    .text{
+                                        color: white;
+
+    
+                                    }
+        
+                                    p{
+                                        color: #999999;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .box1{
+                        .card{
+                            border: none;
+                            background-color: transparent;
+                            .text{
+                                background-color: white;
+                                transition: 0.4s;
+                                .icone{
+                                    margin-bottom: 10px;
+                                    
+                                    i{
+                                        font-size: 60px;
+                                        color: #c5a880;
+        
+                                    }
+                                }
+                                .text{
+                                    h3{
+                                        font-family: "Old Standard TT", serif;
+                                        font-weight: 400;
+                                        font-style: normal;
+                                    }
+                                }
+                                p{
+                                    color: rgba(0, 0, 0, 0.4);
+                                    transition: 0.4s;
+                                }
+                            }
+                                      
+                        }
+                        &:hover{
+                            .card{
+                                .text{
+                                    background-color: #000000;
+                                    .text{
+                                        color: white;
+
+
+                                    }
+        
+                                    p{
+                                        color: #999999;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .textbox{
+                    span{
+                        font-size: 13px;
+                        color: #c5a880;
+                        letter-spacing: 1px;
+                        font-weight: 700;
+                        margin-bottom: 5px;
+                    }
+                    h2{
+                        font-size: 64px;
+                        font-family: "Old Standard TT", serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        margin-bottom: 24px;
+                    }
+                    p{
+                        color: #999999;
+                    }
+                    button{
+                        border: 4px solid rgba(0, 0, 255, 0);
+                        background-color: #c5a880;
+                        color: #fff;
+                        font-size: 12px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        &:active{
+                            border: 4px solid rgba(0, 0, 255, 0.3);
+                        }
+                    }
+                }    
+            }
+        }
+
+        .section3{
+            span{
+                font-size: 13px;
+                color: #c5a880;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+            .text{
+                h2{
+                    font-size: 64px;
+                    font-family: "Old Standard TT", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+            }
+            .boxs{
+                width: 81%;
+
+                .box{
+                    width: 220px !important;
+                    height: 184px;
+                    background-color: #fff;
+                    border-radius: 50% 50% 50% 0;
+                    transition: 0.5s;
+                    i{
+                        font-size: 70px;
+                        color: #c5a880;
+                        margin-bottom: 5px;
+                        transition: 0.5s;
+                    }    
+                    p{
+                        font-size: 20px;
+                        transition: 0.5s;
+                    }
+                    
+                    &:hover{
+                        background-color: #c5a880;
+                        i{
+                            color: #fff;
+                        }
+                        p{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section4{
+            background-position: center;
+            background-size: cover;
+            background-image: url(https://preview.colorlib.com/theme/unwind/images/bg_1.jpg.webp);
+            .backcolor{
+                background-color: rgba(0, 0, 0, 0.75);
+                .box{
+                    margin: 0 auto;
+                    .text{
+                        width: 70%;
+                        span{
+                            color: #c5a880;
+                            font-size: 13px;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+    
+                        }
+                        h2{
+                            margin-top: 5px;
+                            margin-bottom: 0;
+                            color: white;
+                            font-size: 40px;
+                            font-family: "Old Standard TT", serif;
+                            font-weight: 500;
+                            font-style: normal;
+    
+                        }
+                        
+                    }
+                    .button{
+                       button{
+                        background-color: #c5a880;
+                        color: #fff;
+                        border: 4px solid rgba(0, 0, 255, 0);
+                        &:active{
+                            border: 4px solid rgba(0, 0, 255, 0.536);
+                        }
+                       }
+                    }
+
+                }
+
+            }
+        }
+
+        .section5{
+            .text{
+                margin: 0 auto;
+                span{
+                    color: #c5a880;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                }
+                h2{
+                    margin-top: 5px;
+                    margin-bottom: 0;
+                    font-size: 64px;
+                    font-family: "Old Standard TT", serif;
+                    font-weight: 500;
+                    font-style: normal;
+                }
+
+            }
+
+            .boxs{
+                width: 90%;
+                margin: 0 auto;
+                .box{
+                    width: 440px;
+                    .text1{
+                        height: 280px;
+                        background-color: white;
+                        transition: 0.7s;
+                        span{
+                            font-size: 30px;
+                            font-family: "Old Standard TT", serif;
+                            font-weight: 500;
+                            font-style: normal;
+                            cursor: pointer;
+                            transition: 0.7s;
+                        }
+                        p{
+                            color: #999999;
+                        }
+                        .intext{
+                            span{
+                                font-size: 14px;
+                                font-family: "Nunito", sans-serif ;
+                                font-optical-sizing: auto ;
+                                font-style: normal ;
+                                color: #c5a880 ;
+                                cursor: auto;
+                            }
+                            button{
+                                font-weight: 500 ;
+                                padding: 5px 10px ;
+                                font-size: 14px;
+                                color: #222222;
+                                border: 0.5px solid #22222227;
+                                background-color: rgba(255, 255, 255, 0);
+                                transition: 0.7s;
+
+                                
+                            }
+                        }
+                    }
+                    .img{
+                        width: 100%;
+                        height: 280px;
+                        background-position: center;
+                        background-size: cover;
+                        background-image: url(https://preview.colorlib.com/theme/unwind/images/room-1.jpg.webp);
+                        .backcolor{
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            transition: 0.7s;
+                            background-color: rgba(0, 0, 0, 0.4);
+                        }
+                    }
+                    &:hover{
+                        .text1{
+                            background-color: black;
+                            span{
+                                color: white;
+                            }
+                            .intext{
+                                span{
+                                    color: #c5a880;
+                                }
+                                button{
+                                    border: 0.5px solid rgba(255, 255, 255, 0.197);
+                                    color: white;
+                                }
+                            }
+
+                        }
+                        .img{
+                            .backcolor{
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+
+                }
+                .box2{
+                    width: 440px;
+                    .text1{
+                        height: 280px;
+                        background-color: white;
+                        transition: 0.7s;
+                        span{
+                            font-size: 30px;
+                            font-family: "Old Standard TT", serif;
+                            font-weight: 500;
+                            font-style: normal;
+                            cursor: pointer;
+                            transition: 0.7s;
+                        }
+                        p{
+                            color: #999999;
+                        }
+                        .intext{
+                            span{
+                                font-size: 14px;
+                                font-family: "Nunito", sans-serif ;
+                                font-optical-sizing: auto ;
+                                font-style: normal ;
+                                color: #c5a880 ;
+                                cursor: auto;
+                            }
+                            button{
+                                font-weight: 500 ;
+                                padding: 5px 10px ;
+                                font-size: 14px;
+                                color: #222222;
+                                border: 0.5px solid #22222227;
+                                background-color: rgba(255, 255, 255, 0);
+                                transition: 0.7s;
+                                
+                            }
+                        }
+                    }
+                    .img{
+                        width: 100%;
+                        height: 280px;
+                        background-position: center;
+                        background-size: cover;
+                        background-image: url(https://preview.colorlib.com/theme/unwind/images/room-2.jpg.webp);
+                        .backcolor{
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            transition: 0.7s;
+                            background-color: rgba(0, 0, 0, 0.4);
+                        }
+                    }
+                    &:hover{
+                        .text1{
+                            background-color: black;
+                            span{
+                                color: white;
+                            }
+                            .intext{
+                                span{
+                                    color: #c5a880;
+                                }
+                                button{
+                                    border: 0.5px solid rgba(255, 255, 255, 0.197);
+                                    color: white;
+                                }
+                            }
+
+                        }
+                        .img{
+                            .backcolor{
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+
+                }
+                .box3{
+                    width: 440px;
+                    .text1{
+                        height: 280px;
+                        background-color: white;
+                        transition: 0.7s;
+                        span{
+                            font-size: 30px;
+                            font-family: "Old Standard TT", serif;
+                            font-weight: 500;
+                            font-style: normal;
+                            cursor: pointer;
+                            transition: 0.7s;
+                        }
+                        p{
+                            color: #999999;
+                        }
+                        .intext{
+                            span{
+                                font-size: 14px;
+                                font-family: "Nunito", sans-serif ;
+                                font-optical-sizing: auto ;
+                                font-style: normal ;
+                                color: #c5a880 ;
+                                cursor: auto;
+                            }
+                            button{
+                                font-weight: 500 ;
+                                padding: 5px 10px ;
+                                font-size: 14px;
+                                color: #222222;
+                                border: 0.5px solid #22222227;
+                                background-color: rgba(255, 255, 255, 0);
+                                transition: 0.7s;
+                                
+                            }
+                        }
+                    }
+                    .img{
+                        width: 100%;
+                        height: 280px;
+                        background-position: center;
+                        background-size: cover;
+                        background-image: url(https://preview.colorlib.com/theme/unwind/images/room-3.jpg.webp);
+                        .backcolor{
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            transition: 0.7s;
+                            background-color: rgba(0, 0, 0, 0.4);
+                        }
+                    }
+                    &:hover{
+                        .text1{
+                            background-color: black;
+                            span{
+                                color: white;
+                            }
+                            .intext{
+                                span{
+                                    color: #c5a880;
+                                }
+                                button{
+                                    border: 0.5px solid rgba(255, 255, 255, 0.197);
+                                    color: white;
+                                }
+                            }
+
+                        }
+                        .img{
+                            .backcolor{
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+
+                }
+            }
+
+        }
+        
+        .section6{
+            height: 600px;
+            background-position: center;
+            background-size: cover;
+            background-image: url(https://preview.colorlib.com/theme/unwind/images/bg_2.jpg.webp);
+            .backcolor{
+                width: 100%;
+                height: 100%;
+                background-color: #0000006b;
+                span{
+                    font-family: "Nunito", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 13px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    margin-bottom: 5px;
+                }
+                h2{
+                    font-size: 70px;
+                    font-family: "Old Standard TT", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    margin-bottom: 8px;
+                    line-height: 1.5;
+                }
+                .icone{
+                    width: 80px;
+                    height: 80px;
+                    background-color: #c5a880;
+                    border-radius: 50%;
+                    i{
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+
+        .section7{
+            .text{
+                padding-bottom: 24px;
+                span{
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                    color: #c5a880;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                }
+                h2{
+                    font-size: 64px;
+                    font-weight: 400;
+                    line-height: 1.4;
+                    font-family: "Old Standard TT", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    margin-bottom: 16px;
+                }
+            }
+
+            .boxs{
+                position: relative;
+                .img{
+                    width: 600px;
+                    height: 600px;
+
+                    background-position: center;
+                    background-size: cover;
+                    background-image: url(https://preview.colorlib.com/theme/unwind/images/resto-bar.jpg.webp);
+                    .bgcolor{
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.3);
+                    }
+                }
+                .rightbox{
+                    background-color: #c5a880;
+                    width: 100px;
+                    height: 120px;
+                    border-radius: 5px;
+                    position: absolute;
+                    top: 240px;
+                    left: 545px;
+                    i{
+                        font-size: 60px;
+                    }
+                }
+                .boxs{
+                    .box{
+                        .minibox{
+                            background-color: white;
+                            .img{
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                background-position: center;
+                                background-size: cover;
+                                background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-1.jpg.webp);
+                            }
+                            h3{
+                                width: 170px;
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                span{
+                                    padding-right: 20px;
+                                    color: #000000;
+                                }
+                            }
+                            span{
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                color: #c5a880;
+                            }
+                            &:hover{
+                                background-color: #000000;
+                                h3{
+                                    span{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .minibox2{
+                            background-color: white;
+                            .img{
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                background-position: center;
+                                background-size: cover;
+                                background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-2.jpg.webp);
+                            }
+                            h3{
+                                width: 170px;
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                span{
+                                    padding-right: 20px;
+                                    color: #000000;
+                                }
+                            }
+                            span{
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                color: #c5a880;
+                            }
+                            &:hover{
+                                background-color: #000000;
+                                h3{
+                                    span{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .minibox3{
+                            background-color: white;
+                            .img{
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                background-position: center;
+                                background-size: cover;
+                                background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-3.jpg.webp);
+                            }
+                            h3{
+                                width: 170px;
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                span{
+                                    padding-right: 20px;
+                                    color: #000000;
+                                }
+                            }
+                            span{
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                color: #c5a880;
+                            }
+                            &:hover{
+                                background-color: #000000;
+                                h3{
+                                    span{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .minibox4{
+                            background-color: white;
+                            .img{
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                background-position: center;
+                                background-size: cover;
+                                background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-4.jpg.webp);
+                            }
+                            h3{
+                                width: 170px;
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                span{
+                                    padding-right: 20px;
+                                    color: #000000;
+                                }
+                            }
+                            span{
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                color: #c5a880;
+                            }
+                            &:hover{
+                                background-color: #000000;
+                                h3{
+                                    span{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                       
+                    }
+                    .box2{
+                        .minibox{
+                            background-color: white;
+                            .img{
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                background-position: center;
+                                background-size: cover;
+                                background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-5.jpg.webp);
+                            }
+                            h3{
+                                width: 170px;
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                span{
+                                    padding-right: 20px;
+                                    color: #000000;
+                                }
+                            }
+                            span{
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                color: #c5a880;
+                            }
+                            &:hover{
+                                background-color: #000000;
+                                h3{
+                                    span{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .minibox2{
+                            background-color: white;
+                            .img{
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                background-position: center;
+                                background-size: cover;
+                                background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-6.jpg.webp);
+                            }
+                            h3{
+                                width: 170px;
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                span{
+                                    padding-right: 20px;
+                                    color: #000000;
+                                }
+                            }
+                            span{
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                color: #c5a880;
+                            }
+                            &:hover{
+                                background-color: #000000;
+                                h3{
+                                    span{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .minibox3{
+                            background-color: white;
+                            .img{
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                background-position: center;
+                                background-size: cover;
+                                background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-7.jpg.webp);
+                            }
+                            h3{
+                                width: 170px;
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                span{
+                                    padding-right: 20px;
+                                    color: #000000;
+                                }
+                            }
+                            span{
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                color: #c5a880;
+                            }
+                            &:hover{
+                                background-color: #000000;
+                                h3{
+                                    span{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .minibox4{
+                            background-color: white;
+                            .img{
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                background-position: center;
+                                background-size: cover;
+                                background-image: url(https://preview.colorlib.com/theme/unwind/images/menu-8.jpg.webp);
+                            }
+                            h3{
+                                width: 170px;
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                span{
+                                    padding-right: 20px;
+                                    color: #000000;
+                                }
+                            }
+                            span{
+                                font-size: 20px;
+                                font-family: "Nunito", Arial, sans-serif;
+                                font-weight: 600;
+                                color: #c5a880;
+                            }
+                            &:hover{
+                                background-color: #000000;
+                                h3{
+                                    span{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                       
+                    }
+                }
+            }
+        }
+
+        .section8{
+            .text{
+                padding-bottom: 24px;
+                span{
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                    color: #c5a880;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                }
+                h2{
+                    font-size: 64px;
+                    font-weight: 400;
+                    line-height: 1.4;
+                    font-family: "Old Standard TT", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    margin-bottom: 16px;
+                }
+            }
+
+
+            .boxs{
+                width: 85%;
+                margin: 0 auto;
+                .box{
+                    position: relative;
+                    width: 410px;
+                    background-color: white;
+                    padding: 35px 30px 30px;
+                    .img{
+                        .inimg{
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 50%;
+                            background-position: center;
+                            background-size: cover;
+                            background-image: url(https://preview.colorlib.com/theme/unwind/images/person_2.jpg.webp);
+
+                        }
+                        .text{
+                            span{
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    .icone{
+                        position: absolute;
+                        top: 86px;
+                        left: 81px;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        background-color: #c5a880;
+                        i{
+                            color: white;
+                        }
+                    }
+                }
+                .box1{
+                    position: relative;
+                    width: 410px;
+                    background-color: white;
+                    padding: 35px 30px 30px;
+                    .img{
+                        .inimg{
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 50%;
+                            background-position: center;
+                            background-size: cover;
+                            background-image: url(https://preview.colorlib.com/theme/unwind/images/person_3.jpg.webp);
+
+                        }
+                        .text{
+                            span{
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    .icone{
+                        position: absolute;
+                        top: 86px;
+                        left: 81px;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        background-color: #c5a880;
+                        i{
+                            color: white;
+                        }
+                    }
+                }
+                .box2{
+                    position: relative;
+                    width: 410px;
+                    background-color: white;
+                    padding: 35px 30px 30px;
+                    .img{
+                        .inimg{
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 50%;
+                            background-position: center;
+                            background-size: cover;
+                            background-image: url(https://preview.colorlib.com/theme/unwind/images/person_1.jpg.webp);
+
+                        }
+                        .text{
+                            span{
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    .icone{
+                        position: absolute;
+                        top: 86px;
+                        left: 81px;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        background-color: #c5a880;
+                        i{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section9{
+            background-color: #222222;
+            .boxs{
+                width: 90%;
+                margin: 0 auto;
+                height: 100%;
+                .box{
+                    width: 25%;
+                    height: 254px;
+                    .stck{
+                        width: 1px;
+                        height: 90px;
+                        background-color: #99999946;
+                    }
+                    h2{
+                        color: #c5a880;
+                        font-size: 40px;
+                        line-height: 0.6;
+                        margin-bottom: 1.5rem;
+                    }
+                    p{
+                        color: #999999;
+                    }
+                }
+            }
+
+        }
+
+        .section10{
+            .text{
+                padding-bottom: 24px;
+                span{
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                    color: #c5a880;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                }
+                h2{
+                    font-size: 64px;
+                    font-weight: 400;
+                    line-height: 1.4;
+                    font-family: "Old Standard TT", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    margin-bottom: 16px;
+                }
+            }
+
+            .boxs{
+                width: 90%;
+                margin: 0 auto;
+                .box{
+                    width: 330px;
+                    height: 570px;
+                    background-color: white;
+                    .img{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(https://preview.colorlib.com/theme/unwind/images/image_1.jpg.webp);
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    .text{
+                        p{
+                            span{
+                                color: #999999;
+                                margin-right: 10px;
+                            }
+                            a{
+                                color: #c5a880;
+                            }
+                        }
+                        h4{
+                            transition: 0.5s;
+                            font-family: "Old Standard TT", serif;
+                            font-weight: 700;
+                            font-style: normal;
+                            line-height: 1.6;
+                            &:hover{
+                                color: #c5a880;
+                            }
+                        }
+                        span{
+                            color: #999999;
+                            font-family: "Nunito", sans-serif;
+                            font-optical-sizing: auto;
+                            font-style: normal;
+                            font-weight: 600;
+                            letter-spacing: 0px; 
+                            line-height: 1.7; 
+                        }
+
+                    }
+
+                }
+                .box1{
+                    width: 330px;
+                    height: 570px;
+                    background-color: white;
+                    .img{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(https://preview.colorlib.com/theme/unwind/images/image_2.jpg.webp);
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    .text{
+                        p{
+                            span{
+                                color: #999999;
+                                margin-right: 10px;
+                            }
+                            a{
+                                color: #c5a880;
+                            }
+                        }
+                        h4{
+                            transition: 0.5s;
+                            font-family: "Old Standard TT", serif;
+                            font-weight: 700;
+                            font-style: normal;
+                            line-height: 1.6;
+                            &:hover{
+                                color: #c5a880;
+                            }
+                        }
+                        span{
+                            color: #999999;
+                            font-family: "Nunito", sans-serif;
+                            font-optical-sizing: auto;
+                            font-style: normal;
+                            font-weight: 600;
+                            letter-spacing: 0px; 
+                            line-height: 1.7; 
+                        }
+
+                    }
+
+                }
+                .box2{
+                    width: 330px;
+                    height: 570px;
+                    background-color: white;
+                    .img{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(https://preview.colorlib.com/theme/unwind/images/image_3.jpg.webp);
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    .text{
+                        p{
+                            span{
+                                color: #999999;
+                                margin-right: 10px;
+                            }
+                            a{
+                                color: #c5a880;
+                            }
+                        }
+                        h4{
+                            transition: 0.5s;
+                            font-family: "Old Standard TT", serif;
+                            font-weight: 700;
+                            font-style: normal;
+                            line-height: 1.6;
+                            &:hover{
+                                color: #c5a880;
+                            }
+                        }
+                        span{
+                            color: #999999;
+                            font-family: "Nunito", sans-serif;
+                            font-optical-sizing: auto;
+                            font-style: normal;
+                            font-weight: 600;
+                            letter-spacing: 0px; 
+                            line-height: 1.7; 
+                        }
+
+                    }
+
+                }
+                .box3{
+                    width: 330px;
+                    height: 570px;
+                    background-color: white;
+                    .img{
+                        width: 100%;
+                        height: 300px;
+                        background-image: url(https://preview.colorlib.com/theme/unwind/images/image_4.jpg.webp);
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    .text{
+                        p{
+                            span{
+                                color: #999999;
+                                margin-right: 10px;
+                            }
+                            a{
+                                color: #c5a880;
+                            }
+                        }
+                        h4{
+                            transition: 0.5s;
+                            font-family: "Old Standard TT", serif;
+                            font-weight: 700;
+                            font-style: normal;
+                            line-height: 1.6;
+                            &:hover{
+                                color: #c5a880;
+                            }
+                        }
+                        span{
+                            color: #999999;
+                            font-family: "Nunito", sans-serif;
+                            font-optical-sizing: auto;
+                            font-style: normal;
+                            font-weight: 600;
+                            letter-spacing: 0px; 
+                            line-height: 1.7; 
+                        }
+
+                    }
+
+                }
+            }
+        }
+
+        .section11{
+            .boxs{
+                width: 98%;
+                margin: 0 auto;
+                .img{
+                    width: 285px;
+                    height: 250px;
+                    background-position: center;
+                    background-size: cover;
+                    
+                    background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-1.jpg.webp);
+                    .bgcolor{
+                        width: 100%;
+                        height: 100%;
+                        background-color: #00000074;
+                        display: none ;
+                        cursor: pointer;
+                        transition: 0.6s;
+                        
+                        
+
+                        .icone{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: #c5a880;
+                            i{
+                                color: white;
+                            }
+                        }
+                        
+                    }
+                    &:hover{
+                        .bgcolor{
+                            display: flex ;
+                        }
+                    }
+                
+                }
+                .img1{
+                    width: 285px;
+                    height: 250px;
+                    background-position: center;
+                    background-size: cover;
+                    
+                    background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-2.jpg.webp);
+                    .bgcolor{
+                        width: 100%;
+                        height: 100%;
+                        background-color: #00000074;
+                        display: none ;
+                        cursor: pointer;
+                        transition: 0.6s;
+                        
+                        
+
+                        .icone{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: #c5a880;
+                            i{
+                                color: white;
+                            }
+                        }
+                        
+                    }
+                    &:hover{
+                        .bgcolor{
+                            display: flex ;
+                        }
+                    }
+                
+                }
+                .img2{
+                    width: 285px;
+                    height: 250px;
+                    background-position: center;
+                    background-size: cover;
+                    
+                    background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-3.jpg.webp);
+                    .bgcolor{
+                        width: 100%;
+                        height: 100%;
+                        background-color: #00000074;
+                        display: none ;
+                        cursor: pointer;
+                        transition: 0.6s;
+                        
+                        
+
+                        .icone{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: #c5a880;
+                            i{
+                                color: white;
+                            }
+                        }
+                        
+                    }
+                    &:hover{
+                        .bgcolor{
+                            display: flex ;
+                        }
+                    }
+                
+                }
+                .img3{
+                    width: 285px;
+                    height: 250px;
+                    background-position: center;
+                    background-size: cover;
+                    
+                    background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-4.jpg.webp);
+                    .bgcolor{
+                        width: 100%;
+                        height: 100%;
+                        background-color: #00000074;
+                        display: none ;
+                        cursor: pointer;
+                        transition: 0.6s;
+                        
+                        
+
+                        .icone{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: #c5a880;
+                            i{
+                                color: white;
+                            }
+                        }
+                        
+                    }
+                    &:hover{
+                        .bgcolor{
+                            display: flex ;
+                        }
+                    }
+                
+                }
+                .img4{
+                    width: 285px;
+                    height: 250px;
+                    background-position: center;
+                    background-size: cover;
+                    
+                    background-image: url(https://preview.colorlib.com/theme/unwind/images/gallery-5.jpg.webp);
+                    .bgcolor{
+                        width: 100%;
+                        height: 100%;
+                        background-color: #00000074;
+                        display: none ;
+                        cursor: pointer;
+                        transition: 0.6s;
+                        
+                        
+
+                        .icone{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: #c5a880;
+                            i{
+                                color: white;
+                            }
+                        }
+                        
+                    }
+                    &:hover{
+                        .bgcolor{
+                            display: flex ;
+                        }
+                    }
+                
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #1a1a1a;
+    .boxss{
+        width: 95%;
+        margin: 0 auto;
+        height: 500px;
+        
+        .box1{
+            height: 350px;
+            .logo{
+                span{
+                    cursor: pointer;
+                    font-size: 1.75rem !important;
+                    line-height: 1.1; 
+                    font-weight: 700;
+                    font-family: "Nunito", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    margin-bottom: 30px !important;
+                    small{
+                        font-weight: 700;
+                        font-size: 12px;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+           
+            p{
+                color: #ffffffb3; 
+                width: 306px;
+            }
+            .icones{
+                .icone{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 40px;
+                    height: 40px;
+                    background-color: #222222;
+                    cursor: pointer;
+                    i{
+                        color: #c5a880;
+                    }
+                }
+            }
+            
+        }
+        .box2{
+            height: 350px;
+            span{
+                color: #ffffff;
+                font-size: 20px;
+                font-family: "Nunito", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-weight: 700;
+            }
+            .boxs{
+                .box{
+                    ul{
+                        li{
+                            a{
+                                color: #ffffffb3
+                            }
+                            &:hover{
+                                a{
+                                    color: #c5a880;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+        .box3{
+            height: 350px;
+            span{
+                color: #ffffff;
+                font-size: 20px;
+                font-family: "Nunito", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-weight: 700;
+            }
+            .box{
+                ul{
+                    li{
+                        a{
+                            color: #ffffffb3;
+                            &:hover{
+                                color: #c5a880;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .box4{
+            height: 350px;
+             span{
+                color: #ffffff;
+                font-size: 20px;
+                font-family: "Nunito", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-weight: 700;
+             }
+             .boxs{
+                width: 310px;
+                .box{
+                    .icone{
+                        width: 40px;
+                        height: 50px;
+                        i{
+                            color: #c5a880;
+                        }
+                    }
+                    .text{
+                        color: #ffffffb3;
+                    }
+                    .text2{
+                        color: #ffffffb3;
+                        p{
+                            cursor: pointer;
+                        }
+                    }
+                }
+             }
+        }
+
+
+
+    }
+    .son{
+        background-color: #151515;
+        height: 120px;
+        p{
+            color: #ffffffb3;
+            font-size: 13px;
+            i{
+                color: #ffffffb3;
+            }
+            span{
+                color: #c5a880;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.4)
+}
+
+@keyframes playanimation{
+    from{
+        
+    }to{
+
+    }
+}
+
+@media (max-width:992px) {
+    header{
+        .container{
+            nav{
+                display: none !important;
+            }
+        }
+
+    } 
+    main{
+        .section1{
+            .boxs{
+           
+                
+                flex-wrap: wrap;
+                position: static !important;
+                padding: 30px;
+                margin: 0 auto;
+            }
+        }
+        .section2{
+            .container{
+                flex-wrap: wrap;
+                width: 100%;
+                justify-content: space-around;
+            }
+        }
+
+        .section3{
+            .boxs{
+                flex-wrap: wrap;
+            }
+        }
+        
+        .section5{
+            .boxs{
+                flex-direction: column;
+                gap: 30px;
+                .box{
+                    width: 100% !important;
+                }
+                .box2{
+                    width: 100% !important;
+                }
+                .box3{
+                    width: 100% !important;
+                }
+            }
+        }
+        .section7{
+            .boxs{
+                flex-wrap: wrap;
+                .img{
+                    width: 100% !important;
+                    margin-bottom: 30px;
+                }
+                .rightbox{
+                    left: 45% !important;
+                }
+                .boxs{
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .section8{
+            .boxs{
+                flex-wrap: wrap;
+                gap: 20px;
+                .box{
+                    margin-bottom: 10px;
+                }
+    
+            }
+        }
+        
+        .section9{
+            .boxs{
+                width: 80% !important;
+                margin-top: 120px !important;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .box{
+                    width: 367px !important;
+                }
+            }
+        }
+
+        .section10{
+            .boxs{
+                flex-wrap: wrap;
+                width: 70% !important;
+                .box{
+                    margin-bottom: 10px;
+                }
+                .box1{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .section11{
+            .boxs{
+                flex-wrap: wrap;
+                gap: 25px;
+            }
+        }
+    }   
+
+    footer{
+        .boxss{
+            height: auto;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width:600px){
+     .section2{
+        .container{
+            .boxs{
+                .box2{
+                    .cord{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+        .boxs{
+            flex-wrap: wrap;
+
+        }
+     }
+}
